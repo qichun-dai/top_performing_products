@@ -3,7 +3,7 @@ library(readxl)
 
 # set path location and read data
 #setwd("insert path here")
-xfile_o <- read_excel("./Sample - Superstore[40].xlsx")
+xfile_o <- read_excel("./Sample - Superstore - used.xlsx")
 
 # data transformation
 xfile <- xfile_o %>% 
